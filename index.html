@@ -2,84 +2,13 @@
 <html lang="zh-CN">
     <head>
         <meta charset="utf-8" />
-        <title>测试页面</title>
-        <h1>这个是测试<strong>JS</strong>的。</h1>
-<!--链接的CSS文件
-        <link rel="stylesheet" href="css/mystyle.css">
--->
+        <title>个人页面</title>
     </head>
     <body>
-        <title>测试页</title>
-        <p>1、关注流程</p>
-        <p>2、<a href="http://www.baidu.com" title="跳转" target="_blank">跳转</a>到百度。<p>
-        <p>3、<img src="https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site/images/firefox-icon.png" width=20px heigth=20px />图片</p>
-        <p><strong>4、这是粗体</strong></p>
-        <p><em>这是斜体</em></p>
-
-<!--矢量图形绘制-->
-        <svg width="300" height="200">
-            <rect width="100%" height="100%" fill="green" />
-            <polygon points=" 20,20 5,100 40,100" fill="yellow" />
-        </svg>
-
-        <div class="form">
-          <label for="guessField">Enter a guess: </label>
-          <input type="number" min="1" max="100" required id="guessField" class="guessField">
-          <input type="submit" value="Submit guess" class="guessSubmit">
-        </div>
-
-        <div class="resultParas">
-          <p class="guesses"></p>
-          <p class="lastResult"></p>
-          <p class="lowOrHi"></p>
-        </div>
-
-        <div classs="test">
-          <input type="number" id="a" class="a" value="2">+
-          <input type="number" id="b" class="b" value="3">
-          <input type="submit" name="conf" id="conf" class="conf">
-        </div>
-
-        <div class="result">
-          <p class="res"> </p>
-          <input type="number" name="ss" id="ss" class="ss">
- 
-        </div>
-
-    <input type="file" />
-<div class="output"></div>
-
-
+        <h1>Hello World。</h1>
 
 
     </body>
-<!--链接的JS文件
-    <script src="scripts/main.js" defer></script>
--->
-    <script>
-        const x1 = document.querySelector('.a');
-        const x2 = document.querySelector('.b');
-        const x3=document.querySelector('.res');
-        const x4=document.querySelector (".ss");
-        x3.textContent="求和";
-        const x5=document.querySelector(".conf");
-        
-        x4.value=Number(x1.value)+Number(x2.value);
 
- <!--JS的函数测试-->
-        function test(){
-          x4.value=Number(x1.value)+Number(x2.value);
-        }
-<!--按钮监听-->
-     conf.addEventListener('click', test);
-
-    </script>
-
- <!--
-    <script>
-        alert("测试JS");
-        confirm("测试confirm");
-    </script>
--->
   
 </html>
